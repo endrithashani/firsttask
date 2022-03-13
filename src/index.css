@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 9rem;
+  width: 25rem;
+  margin-left: 6rem;
+  margin-top: 0.7rem;
+}
+.cards{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin-top: 6rem;
+}
+.image{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  border:2px solid 	#D3D3D3;
+}
+.text{
+  width:60%;
+  margin-left: 2rem;
+  margin-bottom: 1.25rem;
+}
+.text h1{
+  font-size: 20px;
+}
+.second-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+.second-cards{
+  display:flex;
+  flex-direction:column;
+}
+.second-card{
+  display:flex;
+  flex-direction:column;
+  border: 2px solid 	#D3D3D3;
+  align-items: right;
+  border-radius: 0.75rem;
+  width:25rem;
+  height:25rem;
+  margin-top: 3rem;
+  margin-right: 3rem;
+}
+.card-content{
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.card-upper{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.upper-component{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+}
+.upper-component h4{
+  margin-left: 1rem;
+}
+.new{
+  border:none;
+  height:1.5rem;
+  width:8rem;
+  border-radius: 0.1rem;
+  color: white;
+}
+.new_s{
+  border:none;
+  height:1.5rem;
+  width:4rem ;
+  border-radius: 0.1rem;
+  color: white;
+
+}
+.download{
+  margin-top: 4rem;
+  border:1px solid rgb(67, 120, 218);
+  background-color: white;
+  border-radius: 4rem;
+  width:10rem;
+  height:3rem;
+  color: rgb(67, 120, 218);
+}
+.downloads{
+    margin-top: 5rem;
+    border:1px solid rgb(67, 120, 218);
+    background-color: white;
+    border-radius: 4rem;
+    width:10rem;
+    height:3rem;
+    color: rgb(67, 120, 218);
+}
+.download_m{
+  margin-top: 3.2rem;
+  border:1px solid rgb(67, 120, 218);
+  background-color: white;
+  border-radius: 4rem;
+  width:10rem;
+  height:3rem;
+  color: rgb(67, 120, 218);
+}
+p{
+  margin-top: -10px;
+}
