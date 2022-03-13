@@ -16,10 +16,7 @@ const Card =[
         image:"./images/discount.png",
         name:"Sales Opportunities",
         description:'Can the domain name be used on an international scale?'
-    }
-]
-
-const Card2=[
+    },
 
     {
         id:4,
@@ -38,9 +35,7 @@ const Card2=[
         image:"./images/text.png",
         name:"Typo susceptibility",
         description:'How high is the risk of mistyping the domain name?'
-    }
-]
-const Card3=[
+    },
     {
         id:7,
         image:"./images/chat.png",
@@ -67,7 +62,7 @@ const myStyle={
 const First = () => {
     return ( 
         <div className="container">
-        <div className="cards">
+   
         {Card.map((cardss) =>{
             const{image , name ,description} = cardss;
             return (
@@ -85,42 +80,8 @@ const First = () => {
         
         })
     }   
-    </div>
-    <div className="cards">
-        {Card2.map((cardss) =>{
-            const{image , name ,description} = cardss;
-            return (
-                <div className="card">
-                <div className="image">
-                    <img src={image} alt="first" style={myStyle}></img>
-                </div>
-                
-                <div className="text">
-                    <h1>{name}</h1>
-                    <p>{description}</p>
-                </div>
-                </div>
-            )
-        })}
         </div>
-        <div className="cards">
-        {Card3.map((cardss) =>{
-            const{image , name ,description} = cardss;
-            return (
-                <div className="card">
-                <div className="image">
-                    <img src={image} alt="first" style={myStyle}></img>
-                </div>
-                
-                <div className="text">
-                    <h1>{name}</h1>
-                    <p>{description}</p>
-                </div>
-                </div>
-            )
-        })}
-        </div>
-        </div>
+       
      );
 }
  
