@@ -51,6 +51,7 @@ body {
   height:25rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem; 
+  background-color: red;
 }
 .card-upper{
   display:flex;
@@ -100,6 +101,8 @@ h4{
   .container-card{
     flex-direction:row; 
     margin-top: 60rem;
+  }
+  .card-content{
     width:400px;
   }
 }
