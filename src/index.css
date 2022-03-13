@@ -100,5 +100,6 @@ h4{
   .container-card{
     flex-direction:row; 
     margin-top: 60rem;
+    width:400px;
   }
 }
