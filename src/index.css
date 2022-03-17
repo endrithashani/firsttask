@@ -1,20 +1,23 @@
 body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   height:100%;
 }
 .container{
   display: flex;
-  flex-direction:column; 
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height:500px;
+  max-width:1500px;
 }
 .card{
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: 1;
   height: 9rem;
   width: 25rem;
   margin-top: 0.7rem;
@@ -36,21 +39,27 @@ body {
 .text h1{
   font-size: 20px;
 }
+.container-second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width:1600px;
+}
 .container-card{
   display: flex;
-  flex-wrap: wrap;
-  height:500px;
+  flex-wrap:1;
+  margin: 2rem;
 }
 .card-content{
   display:flex;
   border: 2px solid 	#D3D3D3;
-  align-items: right;
-  flex-wrap: wrap;
+  flex-direction: column;
   border-radius: 0.75rem;
-  width:25rem;
+  width:23rem;
   height:25rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem; 
+ padding-left: 1.5rem; 
+  /* padding-right: 1.5rem;   */
 }
 .card-upper{
   display:flex;
@@ -69,9 +78,7 @@ body {
   align-items: center;
   margin-left: 3rem;
 }
-h4{
-  margin-top:1.5rem;
-}
+
 .new_s{
   border:none;
   height:1.5rem;
@@ -81,7 +88,6 @@ h4{
 
 }
 .downloads{
-  margin-bottom: 1.5rem;
   border:1px solid rgb(67, 120, 218);
   background-color: white;
   border-radius: 4rem;
@@ -90,20 +96,6 @@ h4{
   color: rgb(67, 120, 218);
 }
 .card-content p{
-  width:80%;
-  margin-bottom: 5rem;
-}
-@media (max-width: 550px) {
-  .container{
-    flex-direction:row; 
-  }
-  .container-card{
-    flex-direction:row; 
-    margin-top: 60rem;
-  }
-}
-@media (max-width: 450px) {
-  .card-content{
-    width:300px;
-  }
+  width:90%;
+  height:150px;
 }
