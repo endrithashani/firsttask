@@ -5,8 +5,6 @@ function App() {
     <div className="App">
     <First/>
     <Second/>
-  
-    
     </div>
   );
 }
