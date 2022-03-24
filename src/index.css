@@ -10,13 +10,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 1400px;
 }
 .card{
   display:flex;
   justify-content: center;
   align-items: center;
   flex-wrap: 1;
-  width: 380px;
+  width: 360px;
 }
 .image{
   display:flex;
@@ -39,10 +40,12 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1400px;
 }
 .container-card{
   display: flex;
   flex-wrap:1;
+  width:350px;
   margin: 5px;
 }
 .card-content{
@@ -50,8 +53,7 @@ body {
   border: 2px solid 	#D3D3D3;
   flex-direction: column;
   border-radius: 0.75rem;
-  width:350px;
-  padding-left: 1rem; 
+  padding-left: 20px; 
 }
 .card-upper{
   display:flex;
